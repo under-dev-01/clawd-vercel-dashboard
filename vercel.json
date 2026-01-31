@@ -3,7 +3,7 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_VPS_API": "https://ant-fool-relating-eye.trycloudflare.com",
+    "NEXT_PUBLIC_VPS_API": "https://retirement-stake-supervision-raid.trycloudflare.com",
     "NEXT_PUBLIC_VPS_PWD": "clawd2025"
   }
 }
