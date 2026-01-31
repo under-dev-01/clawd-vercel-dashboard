@@ -131,7 +131,7 @@ export default function Dashboard() {
   }, [fetchApi]);
 
   const download = useCallback((p: string) => {
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || '';
+    const API_URL = process.env.NEXT_PUBLIC_VPS_API || '';
     if (!API_URL) return;
     window.open(`${API_URL}/api/files/download?path=${encodeURIComponent(p)}&pwd=${encodeURIComponent(pwd)}`);
   }, [pwd]);
